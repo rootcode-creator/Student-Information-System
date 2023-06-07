@@ -1,5 +1,3 @@
 # StudentInformationSystem
 
-Project compleated till add record 
-
-theare are some word to be done in update record
+**A project for management to add student records, manage student records and show the student their result for better management.**
