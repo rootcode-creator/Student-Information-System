@@ -1,3 +1,9 @@
+<p align="center">
+	<a href="https://www.flaticon.com/free-icon/systems_11443881?term=information+system&page=1&position=9&origin=tag&related_id=11443881" title="Systems icon (attribution)">
+		<img src="systems.png" alt="Systems icon" width="96" />
+	</a>
+</p>
+
 <h1 align="center">Student Information System</h1>
 
 <p align="center"><i>Desktop-based Java application for managing students, courses, and academic records.</i></p>
@@ -54,6 +60,41 @@ The application uses Java Swing forms and a database connection layer through `M
 - Add courses and manage course lists
 - Basic dashboard and count utilities
 - About and navigation forms for desktop workflow
+
+### Core features
+
+| Feature | Status | Notes |
+| --- | --- | --- |
+| Credentials auth (login) | ✅ Current | Email/password login with basic session handling |
+| Add student records | ✅ Current | Form-based entry with validation |
+| Manage student records | ✅ Current | Edit, delete, and search existing records |
+| Add courses | ✅ Current | Create course entries and metadata |
+| Manage courses | ✅ Current | Edit/delete course lists |
+| Database connection | ✅ Current | MySQL via `MyConnection.java` |
+| Counts & dashboard | ✅ Current | `Count.java` utilities for quick stats |
+| About & help screens | ✅ Current | `About.java` and navigation forms |
+
+### Flow diagram
+
+The flow below shows the main desktop application journey from launch through authentication and record management.
+
+```mermaid
+flowchart TD
+	A[User] --> B[Launch application]
+	B --> C{Authenticated?}
+	C -- No --> D[Login form]
+	C -- No --> E[Register / Add Admin]
+	D --> F[Session established]
+	F --> G[Main Dashboard]
+	G --> H[Add Student Record]
+	G --> I[Manage Student Records]
+	G --> J[Add Course]
+	G --> K[Manage Courses]
+	I --> L[View / Edit / Delete Record]
+	K --> M[View / Edit / Delete Course]
+	G --> N[About / Help]
+	G --> O[Exit]
+```
 
 ## 📁 Project structure
 
