@@ -27,9 +27,6 @@
 	<a href="#-run-the-project"><img src="https://img.shields.io/badge/RUN-SETUP%20GUIDE-A855F7?style=for-the-badge&logo=readme&logoColor=white&labelColor=7E22CE" alt="Setup guide" /></a>
 </p>
 
-## Student Information System — README
-
-Student Information System is a Java Swing desktop application focused on academic record management, including student registration, course management, and result tracking.
 
 ## Table of Contents
 
