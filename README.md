@@ -71,7 +71,7 @@ The application uses Java Swing forms and a database connection layer through `M
 | Counts & dashboard | ✅ Current | `Count.java` utilities for quick stats |
 | About & help screens | ✅ Current | `About.java` and navigation forms |
 
-### Flow diagram
+### 🌊 Flow diagram
 
 The flow below shows the main desktop application journey from launch through authentication and record management.
 
